@@ -28,6 +28,7 @@
 namespace Civi\Api4\Query;
 
 use Civi\API\SelectQuery;
+use Civi\Api4\CustomGroup;
 use Civi\Api4\Event\Events;
 use Civi\Api4\Event\PostSelectQueryEvent;
 use Civi\Api4\Service\Schema\Joinable\CustomGroupJoinable;
