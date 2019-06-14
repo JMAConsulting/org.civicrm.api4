@@ -58,6 +58,7 @@ class SchemaMap {
   public function getTableByName($name) {
     foreach ($this->tables as $table) {
       if ($table->getName() === $name) {
+        $table->addCustomTableLinks();
         return $table;
       }
     }
